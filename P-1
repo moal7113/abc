@@ -1,0 +1,5 @@
+# Do the same with our Apple object, selecting just the variables ['prime_genre', 'user_rating', 'rating_count_tot', 'price']
+Apple = Apple[['prime_genre', 'user_rating', 'rating_count_tot', 'price']]
+
+# Let's check the first three entries
+print(Apple[0:3])
